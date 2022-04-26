@@ -1,5 +1,4 @@
 #include<iostream>
-#include<algorithm>
 using namespace std;
 int main(){
     int t;
@@ -7,14 +6,9 @@ int main(){
     while(t--){
         int x;
         cin>>x;
-        int a=(10/100)*x;
+        int a=x/10;
         int c=x-a;
         int b=x-100;
-        if(c>b){
-            cout<<100<<endl;
-        }
-        else{
-            cout<<a<<endl;
-        }
+        cout<<max(a,100)<<endl;
     }
     }
