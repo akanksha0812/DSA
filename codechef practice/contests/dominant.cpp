@@ -5,9 +5,9 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int Na,Nb,Nc;
-	    cin>>Na>>Nb>>Nc;
-	    if(Na>Nb+Nc || Nb>Na+Nc || Nc>Nb+Na){
+	    int na,nb,nc;
+	    cin>>na>>nb>>nc;
+	    if(na>nc+nb || nb>na+nc ||nc>na+nb){
 	        cout<<"Yes"<<endl;
 	    }
 	    else{
