@@ -1,20 +1,23 @@
 #include<bits/stdc++.h>
-#include<stdio.h>
-#include<math.h>
 using namespace std;
 int main(){
-    int a[5][5];
-    int poi=0;
-    int poj=0;
-    for(int i=0;i<5;i++){
-        for(int j=0;j<5;j++){
-            cin>>a[i][j];
-            if(a[i][j]==1){
-                int poi=i;
-                int poj=j;
-            }
-        }
+    int l,i,n;
+    char s[10000];
+    gets(s);
+    l=strlen(s);
+    for( i=0;i<l;i++){
+        if(s[i]=='.')
+            cout<<'0';
+                if((s[i]=='-') && (s[i]=='.'))
+                {
+                    cout<<'1';
+                    i++;
+                }
+                if((s[i]=='-') && (s[i]=='-'))
+                {
+                    cout<<'2';
+                    i++;
+                }
     }
-    cout<<(abs(2-poi)+abs(2-poj));
-    return 0;
+    cout<<endl;
 }
