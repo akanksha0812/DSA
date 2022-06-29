@@ -6,13 +6,14 @@ int main() {
     cin>>n>>t;
     string s;
     cin>>s;
-    for(int i=0;i<s.size();i++){
-        while(t--){
+    while(t--){
+           for(int i=0;i<s.size();i++){
             if(s[i]=='B' and s[i+1]=='G'){
                 swap(s[i],s[i+1]);
+                i++;
             }
         }
-         cout<<s<<endl;
     }
+    cout<<s<<endl;
     return 0;
 }
