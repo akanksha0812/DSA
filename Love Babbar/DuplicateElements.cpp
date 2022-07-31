@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int n,count=0;
+    int n;
     cin >> n;
     int arr[1000];
     for (int i = 0; i < n; i++){
