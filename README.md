@@ -5,8 +5,8 @@ This repository contains my daily practice code solutions from LeetCode and Geek
 
 ## Contents
 
-- **LeetCode Solutions**: Solutions to coding problems sourced from [LeetCode](https://leetcode.com/).
-- **GeeksforGeeks Solutions**: Solutions to coding problems sourced from [GeeksforGeeks](https://www.geeksforgeeks.org/).
+- **LeetCode Solutions**: Solutions to coding problems sourced from [LeetCode](https://leetcode.com/Akanksha_08/).
+- **GeeksforGeeks Solutions**: Solutions to coding problems sourced from [GeeksforGeeks](https://auth.geeksforgeeks.org/user/akankshamishradolly).
 - **Other Practice Problems**: Additional coding challenges and exercises from various sources.
 
 ## Structure
@@ -25,4 +25,4 @@ Contributions are welcome! If you have alternative solutions, improvements, or a
 
 ## Connect with Me
 
-Feel free to reach out to me through [email](mailto:mishra73akanksha@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/akanksha-mishra-845a1321a/) if you have any questions, suggestions, or just want to chat about coding and algorithms!
+Feel free to reach out to me through [email](mailto:mishra73akanksha@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/akanksha-mishra-845a1321a/) if you have any questions, suggestions, or just want to chat about coding and algorithms!
